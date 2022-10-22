@@ -1,3 +1,4 @@
+const diceAudio = new Audio('dice-roll.mp3')
 
 const setNumberOfSides = () => {
   const numSides = document.getElementById('dice-selector').value
@@ -6,12 +7,13 @@ const setNumberOfSides = () => {
 }
 
 const rollDice = () => {
-
   rollInterval = setInterval(() => {
     setNumberOfSides()
-  }, 10);
+  }, 10)
 
   setTimeout(() => {
     clearInterval(rollInterval)
-  }, 2000);
+  }, 1200)
+
+  diceAudio.play()
 }

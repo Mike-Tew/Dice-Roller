@@ -7,8 +7,8 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "dice-roller",
-    "version": "0.0.0"
+    "productName": "Dice Roller",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "dice-roller",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -56,10 +56,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": true,
-        "title": "dice-roller",
-        "width": 800
+        "height": 500,
+        "resizable": false,
+        "title": "Dice Roller",
+        "width": 600
       }
     ]
   }
